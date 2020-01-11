@@ -54,7 +54,7 @@ export default {
   data(){
       return {
         dataFaq : [],
-        url : 'https://loko-proccess.viery.id/',
+        url : 'https://loko-main-proccess.herokuapp.com/',
         columns: ['pertanyaan', 'hasil_pertanyaan', 'jawaban', 'action'],
         optionsTable: {
             headings: {
