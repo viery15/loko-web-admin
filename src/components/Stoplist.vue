@@ -51,7 +51,7 @@ export default {
   data(){
       return {
         dataStoplist : [],
-        url : 'http://127.0.0.1/loko/text-preproccessing/',
+        url : 'https://loko-preprocessing.herokuapp.com/',
         columns: ['stopword', 'action'],
         optionsTable: {
             headings: {

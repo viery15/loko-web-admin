@@ -54,7 +54,7 @@ export default {
   data(){
       return {
         dataFaq : [],
-        url : 'http://127.0.0.1/loko/text-preproccessing/',
+        url : 'https://loko-preprocessing.herokuapp.com/',
         columns: ['pertanyaan', 'hasil_pertanyaan', 'jawaban', 'action'],
         optionsTable: {
             headings: {
