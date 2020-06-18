@@ -115,7 +115,7 @@ export default {
   name: "SinonimComponent",
   data() {
     return {
-      url: "http://127.0.0.1/loko/text-preproccessing/",
+      url: "https://loko-preprocessing.herokuapp.com/",
       dataSinonim: "",
       columns: ["words", "action"],
       words: [],
