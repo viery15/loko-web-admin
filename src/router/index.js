@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Faq from '@/components/Faq'
 import Stoplist from '@/components/Stoplist'
+import Sinonim from '@/components/Sinonim'
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router ({
       path: '/stoplist',
       name : 'Stoplist',
       component: Stoplist
+    },
+    {
+      path: '/sinonim',
+      name : 'Sinonim',
+      component: Sinonim
     },
   ]
 })

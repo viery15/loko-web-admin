@@ -10,6 +10,7 @@
           <router-link class="nav-link" to="/" style="color:white">Home</router-link>
           <router-link class="nav-link" to="/faq" style="color:white">FAQ</router-link>
           <router-link class="nav-link" to="/stoplist" style="color:white">Stoplist</router-link>
+          <router-link class="nav-link" to="/sinonim" style="color:white">Sinonim</router-link>
         </div>
       </div>
     </nav>
