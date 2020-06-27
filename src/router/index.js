@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Faq from '@/components/Faq'
 import Stoplist from '@/components/Stoplist'
 import Sinonim from '@/components/Sinonim'
+import Twitter from '@/components/Twitter'
 
 Vue.use(Router)
 
@@ -27,6 +28,11 @@ export default new Router ({
       path: '/sinonim',
       name : 'Sinonim',
       component: Sinonim
+    },
+    {
+      path: '/twitter',
+      name : 'Twitter',
+      component: Twitter
     },
   ]
 })
