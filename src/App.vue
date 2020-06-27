@@ -12,6 +12,7 @@
           <router-link class="nav-link" to="/stoplist" style="color:white">Stoplist</router-link>
           <router-link class="nav-link" to="/sinonim" style="color:white">Sinonim</router-link>
           <router-link class="nav-link" to="/twitter" style="color:white">Data Twitter</router-link>
+          <router-link class="nav-link" to="/history" style="color:white">History</router-link>
         </div>
       </div>
     </nav>
