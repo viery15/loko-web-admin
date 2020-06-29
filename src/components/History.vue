@@ -16,15 +16,16 @@ export default {
     return {
       dataHistory: [],
       url: "https://loko-preprocessing.herokuapp.com/",
-      columns: ["user_id", "nama", "input", "tanggal"],
+      columns: ["user_id", "nama", "tanggal", "input", "output"],
       optionsTable: {
         headings: {
           nama: "Nama",
           input: "Input",
-          tanggal: "Tanggal"
+          tanggal: "Tanggal",
+          output: "Output"
         },
-        sortable: ["nama", "input", "tanggal"],
-        filterable: ["nama", "input", "tanggal"]
+        sortable: ["nama", "input", "tanggal", "output"],
+        filterable: ["nama", "input", "tanggal", "output"]
       }
     };
   },
@@ -40,7 +41,7 @@ export default {
         canCancel: false
       });
       const response = await axios.get(this.url + "HistoryController");
-      this.dataTwitter = response.data;
+      this.dataHistory = response.data;
 
       loader.hide();
     }
