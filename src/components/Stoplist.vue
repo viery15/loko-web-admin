@@ -47,7 +47,7 @@ import axios from 'axios'
 import 'vue-loading-overlay/dist/vue-loading.css'
 
 export default {
-  name: 'Faq',
+  name: 'Stoplist',
   data(){
       return {
         dataStoplist : [],
